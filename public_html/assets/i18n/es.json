@@ -1,0 +1,218 @@
+{
+  "app": {
+    "name": "Deep Brazil Tourist",
+    "tagline": "Tu asistente de bolsillo para viajar por Brasil"
+  },
+  "nav": {
+    "home": "Inicio",
+    "phrases": "Frases",
+    "trips": "Rutas",
+    "account": "Cuenta",
+    "sos": "SOS",
+    "language": "Idioma"
+  },
+  "common": {
+    "loading": "Cargando…",
+    "retry": "Reintentar",
+    "back": "Volver",
+    "comingSoon": "Próximamente",
+    "offline": "Sin conexión. Mostrando contenido guardado.",
+    "offlineData": "Contenido guardado (sin conexión)",
+    "updatedAt": "Actualizado el {date}",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "premium": "Premium",
+    "free": "Gratis",
+    "locked": "Bloqueado",
+    "days": "{n} días",
+    "close": "Cerrar",
+    "notFound": "Página no encontrada",
+    "goHome": "Ir al inicio"
+  },
+  "home": {
+    "greeting": "¡Bienvenido a Brasil!",
+    "subtitle": "Todo lo que necesitas, incluso con poca señal."
+  },
+  "modules": {
+    "phrasebook": {
+      "title": "Frases",
+      "desc": "Habla portugués con pronunciación y audio"
+    },
+    "emergency": {
+      "title": "Emergencia",
+      "desc": "Policía, ambulancia y bomberos"
+    },
+    "arrival": {
+      "title": "Llegada al aeropuerto",
+      "desc": "Guías paso a paso de GRU, GIG, BSB y CNF"
+    },
+    "money": {
+      "title": "Dinero y pagos",
+      "desc": "Conversor, propina, tarjetas y PIX"
+    },
+    "entry": {
+      "title": "Entrada y salud",
+      "desc": "Visas, vacunas y seguro de viaje"
+    },
+    "itineraries": {
+      "title": "Rutas",
+      "desc": "Rutas clásicas y de naturaleza"
+    },
+    "food": {
+      "title": "Gastronomía Brasileña",
+      "desc": "Platos típicos, comida callejera y bebidas"
+    },
+    "ebook": {
+      "title": "E-book Oficial",
+      "desc": "95 páginas con la guía completa de Brasil"
+    }
+  },
+  "phrasebook": {
+    "title": "Frases",
+    "search": "Buscar frases…",
+    "listen": "Escuchar",
+    "show": "Mostrar en letra grande",
+    "empty": "No se encontraron frases.",
+    "hint": "Toca una frase para mostrarla en letra grande a la otra persona.",
+    "categories": {
+      "all": "Todas",
+      "general": "General",
+      "casual": "Charla casual",
+      "dining": "Restaurante",
+      "transport": "Transporte",
+      "emergency": "Emergencia",
+      "shopping": "Compras",
+      "health": "Salud"
+    }
+  },
+  "emergency": {
+    "title": "Emergencia",
+    "subtitle": "Llamadas gratuitas desde cualquier teléfono en Brasil.",
+    "police": "Policía Militar",
+    "ambulance": "Ambulancia (SAMU)",
+    "fire": "Bomberos",
+    "call": "Llamar al {n}",
+    "moreContacts": "Policía turística y embajadas",
+    "moreContactsNote": "Los contactos se están verificando con fuentes oficiales y estarán disponibles pronto.",
+    "phrases": "Frases de emergencia",
+    "disclaimer": "Solo orientativo. Sigue siempre las instrucciones de las autoridades locales."
+  },
+  "itineraries": {
+    "title": "Rutas",
+    "empty": "No hay rutas disponibles.",
+    "unlock": "Desbloquear con Premium",
+    "lockedMsg": "Esta ruta es parte de Premium. Los planes estarán disponibles pronto.",
+    "loginToUnlock": "Inicia sesión para acceder al contenido Premium.",
+    "day": "Día {n}",
+    "bestSeason": "Mejor época",
+    "estimatedCost": "Costo estimado",
+    "tips": "Consejos",
+    "regions": {
+      "rio": "Río de Janeiro",
+      "saopaulo": "São Paulo",
+      "nordeste": "Nordeste",
+      "amazonia": "Amazonía",
+      "pantanal": "Pantanal",
+      "sul": "Sur",
+      "centro_oeste": "Centro-Oeste",
+      "sudeste_interior": "Interior del Sudeste"
+    }
+  },
+  "auth": {
+    "login": "Iniciar sesión",
+    "register": "Crear cuenta",
+    "logout": "Cerrar sesión",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "name": "Nombre",
+    "country": "País de origen",
+    "language": "Idioma preferido",
+    "acceptTerms": "Acepto los Términos de Uso",
+    "acceptPrivacy": "Acepto la Política de Privacidad",
+    "marketing": "Quiero recibir consejos de viaje por correo (opcional)",
+    "passwordHint": "Mínimo 8 caracteres, con letras y números.",
+    "forgot": "¿Olvidaste tu contraseña?",
+    "forgotTitle": "Restablecer contraseña",
+    "sendLink": "Enviar enlace",
+    "forgotSent": "Si este correo está registrado, recibirás un enlace para restablecer tu contraseña.",
+    "resetTitle": "Define una nueva contraseña",
+    "newPassword": "Nueva contraseña",
+    "resetDone": "Contraseña cambiada. Ya puedes iniciar sesión.",
+    "verifyTitle": "Confirmación de correo",
+    "verifyOk": "¡Tu correo fue confirmado!",
+    "verifyFail": "Este enlace no es válido o expiró.",
+    "noAccount": "¿No tienes cuenta?",
+    "haveAccount": "¿Ya tienes cuenta?"
+  },
+  "account": {
+    "title": "Mi cuenta",
+    "premiumActive": "Premium activo hasta {date}",
+    "free": "Plan gratuito",
+    "upgradeSoon": "Planes Premium (Day Pass, Trip Pass, Mensual) próximamente.",
+    "emailVerified": "Correo confirmado",
+    "emailNotVerified": "Correo no confirmado",
+    "resendVerification": "Reenviar confirmación",
+    "verificationSent": "Correo de confirmación enviado.",
+    "privacy": "Privacidad y datos",
+    "export": "Descargar mis datos",
+    "delete": "Eliminar mi cuenta",
+    "deleteConfirm": "Esto elimina tu cuenta de forma permanente. Ingresa tu contraseña para confirmar.",
+    "deleted": "Tu cuenta fue eliminada.",
+    "saved": "Guardado."
+  },
+  "money": {
+    "subtitle": "Cotización en tiempo real, propinas y cómo pagar en Brasil.",
+    "calculatorTitle": "Conversor de Moneda",
+    "youHave": "Tienes:",
+    "estimatedBRL": "Valor estimado en Reales (BRL):",
+    "cashDesk": "Casa de Cambio (Efectivo)",
+    "intlCard": "Tarjeta Internacional",
+    "cashSpreadNote": "Tipo de cambio comprador estimado",
+    "cardSpreadNote": "Cambio oficial + cargos bancarios",
+    "paymentMatrixTitle": "Cómo Pagar en Brasil: Guía Práctica",
+    "cardsTitle": "Tarjetas de Crédito y Débito",
+    "cardsDesc": "Aceptadas en el 99% de tiendas y playas mediante pago sin contacto (NFC). Elija siempre pagar en BRL en el datáfono para evitar comisiones abusivas por conversión dinámica (DCC).",
+    "pixTitle": "Pagos PIX",
+    "pixDesc": "PIX es el sistema instantáneo nacional más usado en Brasil, pero requiere CPF y cuenta bancaria brasileña. Los turistas extranjeros generalmente no pueden pagar con QR de PIX — use tarjeta o efectivo.",
+    "tipTitle": "Propina y Servicio (10% a 13%)",
+    "tipDesc": "En restaurantes, la tasa de servicio del 10% casi siempre viene detallada en la cuenta. Su pago es opcional por ley, pero es costumbre habitual. No hace falta dejar propina extra en la mesa.",
+    "cashTitle": "Dinero en Efectivo",
+    "cashDesc": "Lleve entre R$ 50 y R$ 150 en billetes pequeños (R$ 10, R$ 20) para puestos callejeros y ferias de playa. Evite billetes de R$ 100 o R$ 200 por falta habitual de cambio.",
+    "atmTitle": "Cajeros Automáticos (Banco 24 Horas)",
+    "atmDesc": "Use los cajeros rojos de 'Banco 24 Horas' dentro de supermercados, farmacias y centros comerciales. Evite cajeros solitarios en la calle de noche."
+  },
+  "arrival": {
+    "subtitle": "Migración, retiro de equipaje, conectividad y traslados seguros a la ciudad."
+  },
+  "entry": {
+    "subtitle": "Requisitos migratorios oficiales, visas y salud del viajero.",
+    "visaRulesTitle": "Requisitos de Visa por País",
+    "healthTitle": "Salud y Vacunas"
+  },
+  "coming": {
+    "arrival": "Guías paso a paso de llegada a GRU, GIG, BSB y CNF: migración, cambio de moneda y transporte a la ciudad.",
+    "money": "Conversor de moneda (USD/EUR/ARS → BRL), propina, tarjetas, efectivo y PIX para extranjeros.",
+    "entry": "Requisitos de visa por nacionalidad, vacunas y seguro de viaje, con fuentes oficiales."
+  },
+  "errors": {
+    "generic": "Algo salió mal. Inténtalo de nuevo.",
+    "network_error": "Sin conexión. Revisa tu internet.",
+    "invalid_credentials": "Correo o contraseña incorrectos.",
+    "email_taken": "Este correo ya está registrado.",
+    "too_many_requests": "Demasiados intentos. Espera unos minutos.",
+    "validation_error": "Revisa los campos marcados.",
+    "invalid_token": "Este enlace no es válido o expiró.",
+    "not_found": "No encontrado.",
+    "unauthenticated": "Inicia sesión para continuar."
+  },
+  "fields": {
+    "required": "Campo obligatorio.",
+    "invalid_email": "Correo no válido.",
+    "too_short": "Demasiado corto.",
+    "too_long": "Demasiado largo.",
+    "must_accept": "Debes aceptar para continuar.",
+    "weak_password": "Usa letras y números.",
+    "invalid_value": "Valor no válido.",
+    "email_taken": "Correo ya registrado."
+  }
+}

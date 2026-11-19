@@ -1,0 +1,112 @@
+{
+  "app": { "name": "Deep Brazil Tourist", "tagline": "Seu assistente de bolso para viajar pelo Brasil" },
+  "nav": { "home": "Início", "phrases": "Frases", "trips": "Roteiros", "account": "Conta", "sos": "SOS", "language": "Idioma" },
+  "common": {
+    "loading": "Carregando…", "retry": "Tentar novamente", "back": "Voltar", "comingSoon": "Em breve",
+    "offline": "Você está offline. Mostrando conteúdo salvo.", "offlineData": "Conteúdo salvo (offline)",
+    "updatedAt": "Atualizado em {date}", "save": "Salvar", "cancel": "Cancelar", "premium": "Premium",
+    "free": "Grátis", "locked": "Bloqueado", "days": "{n} dias", "close": "Fechar", "notFound": "Página não encontrada",
+    "goHome": "Ir para o início"
+  },
+  "home": { "greeting": "Bem-vindo ao Brasil!", "subtitle": "Tudo o que você precisa, mesmo com sinal fraco." },
+  "modules": {
+    "phrasebook": { "title": "Frases", "desc": "Fale português com pronúncia e áudio" },
+    "emergency": { "title": "Emergência", "desc": "Polícia, ambulância e bombeiros" },
+    "arrival": { "title": "Desembarque", "desc": "Guias passo a passo de GRU, GIG, BSB e CNF" },
+    "food": { "title": "Culinária & Sabores", "desc": "Pratos típicos, comidas de rua e bebidas" },
+    "money": { "title": "Dinheiro e pagamentos", "desc": "Conversor, gorjeta, cartões e PIX" },
+    "entry": { "title": "Entrada e saúde", "desc": "Vistos, vacinas e seguro viagem" },
+    "itineraries": { "title": "Roteiros", "desc": "Roteiros clássicos e de natureza" },
+    "ebook": { "title": "E-book Oficial", "desc": "95 páginas com o guia completo do Brasil" }
+  },
+  "phrasebook": {
+    "title": "Frases", "search": "Buscar frases…", "listen": "Ouvir", "show": "Mostrar em letra grande",
+    "empty": "Nenhuma frase encontrada.", "hint": "Toque em uma frase para mostrá-la em letra grande à outra pessoa.",
+    "categories": { "all": "Todas", "general": "Geral", "casual": "Conversa casual", "dining": "Restaurante", "transport": "Transporte", "emergency": "Emergência", "shopping": "Compras", "health": "Saúde" }
+  },
+  "emergency": {
+    "title": "Emergência", "subtitle": "Ligações gratuitas de qualquer telefone no Brasil.",
+    "police": "Polícia Militar", "ambulance": "Ambulância (SAMU)", "fire": "Bombeiros",
+    "call": "Ligar {n}", "moreContacts": "Polícia turística e embaixadas",
+    "moreContactsNote": "Os contatos estão sendo verificados em fontes oficiais e estarão disponíveis em breve.",
+    "phrases": "Frases de emergência",
+    "disclaimer": "Conteúdo orientativo. Siga sempre as instruções das autoridades locais."
+  },
+  "itineraries": {
+    "title": "Roteiros", "empty": "Nenhum roteiro disponível.", "unlock": "Desbloquear com Premium",
+    "lockedMsg": "Este roteiro faz parte do Premium. Os planos estarão disponíveis em breve.",
+    "loginToUnlock": "Entre na sua conta para acessar o conteúdo Premium.", "day": "Dia {n}",
+    "bestSeason": "Melhor época", "estimatedCost": "Custo estimado", "tips": "Dicas",
+    "regions": { "rio": "Rio de Janeiro", "saopaulo": "São Paulo", "nordeste": "Nordeste", "amazonia": "Amazônia", "pantanal": "Pantanal", "sul": "Sul", "centro_oeste": "Centro-Oeste", "sudeste_interior": "Interior do Sudeste" }
+  },
+  "auth": {
+    "login": "Entrar", "register": "Criar conta", "logout": "Sair", "email": "E-mail",
+    "password": "Senha", "name": "Nome", "country": "País de origem", "language": "Idioma preferido",
+    "acceptTerms": "Aceito os Termos de Uso", "acceptPrivacy": "Aceito a Política de Privacidade",
+    "marketing": "Quero receber dicas de viagem por e-mail (opcional)",
+    "passwordHint": "Mínimo de 8 caracteres, com letras e números.",
+    "forgot": "Esqueceu a senha?", "forgotTitle": "Redefinir senha", "sendLink": "Enviar link",
+    "forgotSent": "Se este e-mail estiver cadastrado, você receberá um link para redefinir a senha.",
+    "resetTitle": "Defina uma nova senha", "newPassword": "Nova senha",
+    "resetDone": "Senha alterada. Você já pode entrar.",
+    "verifyTitle": "Confirmação de e-mail", "verifyOk": "Seu e-mail foi confirmado!",
+    "verifyFail": "Este link é inválido ou expirou.",
+    "noAccount": "Não tem conta?", "haveAccount": "Já tem conta?"
+  },
+  "account": {
+    "title": "Minha conta", "premiumActive": "Premium ativo até {date}", "free": "Plano gratuito",
+    "upgradeSoon": "Planos Premium (Day Pass, Trip Pass, Mensal) em breve.",
+    "emailVerified": "E-mail confirmado", "emailNotVerified": "E-mail não confirmado",
+    "resendVerification": "Reenviar confirmação", "verificationSent": "E-mail de confirmação enviado.",
+    "privacy": "Privacidade e dados", "export": "Baixar meus dados", "delete": "Excluir minha conta",
+    "deleteConfirm": "Isso exclui sua conta permanentemente. Digite sua senha para confirmar.",
+    "deleted": "Sua conta foi excluída.", "saved": "Salvo."
+  },
+  "money": {
+    "subtitle": "Cotação comercial em tempo real, dicas de gorjeta e como pagar no Brasil.",
+    "calculatorTitle": "Conversor de Moedas",
+    "youHave": "Você tem:",
+    "estimatedBRL": "Valor estimado em Reais (BRL):",
+    "cashDesk": "Casa de Câmbio (Espécie)",
+    "intlCard": "Cartão Internacional",
+    "cashSpreadNote": "Cotação de compra com spread típico",
+    "cardSpreadNote": "Câmbio oficial + taxas bancárias",
+    "paymentMatrixTitle": "Como Pagar no Brasil (Guia Prático)",
+    "cardsTitle": "Cartões de Crédito / Débito (Visa / Mastercard)",
+    "cardsDesc": "Altamente aceitos em 99% do comércio, restaurantes e praias por aproximação (NFC) nas máquinas de cartão (Cielo, Stone, PagBank). Sempre selecione a opção de cobrança em BRL na máquina para evitar taxas abusivas de DCC (Dynamic Currency Conversion).",
+    "pixTitle": "PIX para Estrangeiros",
+    "pixDesc": "O PIX é o sistema instantâneo mais popular do país, mas exige CPF e conta bancária local. Turistas estrangeiros sem conta brasileira geralmente não conseguem pagar via QR Code PIX direto — use cartão internacional ou dinheiro trocado em barraquinhas.",
+    "tipTitle": "Gorjeta e Taxa de Serviço (10% a 13%)",
+    "tipDesc": "Em bares e restaurantes, a taxa de 10% (ou até 13%) quase sempre já vem discriminada no final da conta. O pagamento é opcional por lei, mas amplamente praticado como padrão. Não é necessário deixar gorjeta extra em dinheiro na mesa.",
+    "cashTitle": "Dinheiro Vivo (Notas em R$)",
+    "cashDesc": "Tenha sempre R$ 50 a R$ 150 em notas menores (R$ 10, R$ 20) para feiras de artesanato, vendedores de praia e táxis onde máquinas possam falhar. Evite notas de R$ 100 e R$ 200 pelo risco de falta de troco.",
+    "atmTitle": "Saques em Caixas Eletrônicos (Banco 24 Horas)",
+    "atmDesc": "Prefira caixas da rede 'Banco 24 Horas' localizados dentro de farmácias, supermercados, shoppings e aeroportos. Evite caixas eletrônicos isolados na rua após o anoitecer."
+  },
+  "arrival": {
+    "subtitle": "Desembarque, imigração, retirada de bagagem e deslocamento seguro até a cidade."
+  },
+  "entry": {
+    "subtitle": "Regras migratórias oficiais, validade de vistos e orientações sanitárias da Anvisa.",
+    "visaRulesTitle": "Requisitos de Visto por País",
+    "healthTitle": "Saúde e Requisitos Sanitários"
+  },
+  "coming": {
+    "arrival": "Guias passo a passo de desembarque em GRU, GIG, BSB e CNF: imigração, câmbio e transporte até a cidade.",
+    "money": "Conversor de moedas (USD/EUR/ARS → BRL), gorjeta, cartões, dinheiro vivo e PIX para estrangeiros.",
+    "entry": "Requisitos de visto por nacionalidade, vacinas e seguro viagem, com fontes oficiais."
+  },
+  "errors": {
+    "generic": "Algo deu errado. Tente novamente.", "network_error": "Sem conexão. Verifique sua internet.",
+    "invalid_credentials": "E-mail ou senha inválidos.", "email_taken": "Este e-mail já está cadastrado.",
+    "too_many_requests": "Muitas tentativas. Aguarde alguns minutos.",
+    "validation_error": "Verifique os campos destacados.", "invalid_token": "Este link é inválido ou expirou.",
+    "not_found": "Não encontrado.", "unauthenticated": "Entre na sua conta para continuar."
+  },
+  "fields": {
+    "required": "Campo obrigatório.", "invalid_email": "E-mail inválido.", "too_short": "Muito curto.",
+    "too_long": "Muito longo.", "must_accept": "É preciso aceitar para continuar.",
+    "weak_password": "Use letras e números.", "invalid_value": "Valor inválido.", "email_taken": "E-mail já cadastrado."
+  }
+}
+

@@ -1,0 +1,112 @@
+{
+  "app": { "name": "Deep Brazil Tourist", "tagline": "Your pocket assistant for traveling in Brazil" },
+  "nav": { "home": "Home", "phrases": "Phrases", "trips": "Trips", "account": "Account", "sos": "SOS", "language": "Language" },
+  "common": {
+    "loading": "Loading…", "retry": "Try again", "back": "Back", "comingSoon": "Coming soon",
+    "offline": "You are offline. Showing saved content.", "offlineData": "Saved content (offline)",
+    "updatedAt": "Updated on {date}", "save": "Save", "cancel": "Cancel", "premium": "Premium",
+    "free": "Free", "locked": "Locked", "days": "{n} days", "close": "Close", "notFound": "Page not found",
+    "goHome": "Go to home"
+  },
+  "home": { "greeting": "Welcome to Brazil!", "subtitle": "Everything you need, even with weak signal." },
+  "modules": {
+    "phrasebook": { "title": "Phrasebook", "desc": "Speak Portuguese with pronunciation and audio" },
+    "emergency": { "title": "Emergency", "desc": "Police, ambulance and fire numbers" },
+    "arrival": { "title": "Airport arrival", "desc": "Step-by-step guides for GRU, GIG, BSB and CNF" },
+    "food": { "title": "Food & Flavors", "desc": "Traditional dishes, street food & drinks" },
+    "money": { "title": "Money & payments", "desc": "Converter, tipping, cards and PIX" },
+    "entry": { "title": "Entry & health", "desc": "Visas, vaccines and travel insurance" },
+    "itineraries": { "title": "Itineraries", "desc": "Classic and nature itineraries" },
+    "ebook": { "title": "Official E-book", "desc": "95 pages of comprehensive travel guides" }
+  },
+  "phrasebook": {
+    "title": "Phrasebook", "search": "Search phrases…", "listen": "Listen", "show": "Show in large text",
+    "empty": "No phrases found.", "hint": "Tap a phrase to show it in large text to the other person.",
+    "categories": { "all": "All", "general": "General", "casual": "Casual Chat", "dining": "Dining", "transport": "Transport", "emergency": "Emergency", "shopping": "Shopping", "health": "Health" }
+  },
+  "emergency": {
+    "title": "Emergency", "subtitle": "Free calls from any phone in Brazil.",
+    "police": "Military Police", "ambulance": "Ambulance (SAMU)", "fire": "Fire Department",
+    "call": "Call {n}", "moreContacts": "Tourist police and embassies",
+    "moreContactsNote": "Contacts are being verified with official sources and will be available soon.",
+    "phrases": "Emergency phrases",
+    "disclaimer": "Guidance only. Always follow the instructions of local authorities."
+  },
+  "itineraries": {
+    "title": "Itineraries", "empty": "No itineraries available.", "unlock": "Unlock with Premium",
+    "lockedMsg": "This itinerary is part of Premium. Plans will be available soon.",
+    "loginToUnlock": "Log in to access Premium content.", "day": "Day {n}",
+    "bestSeason": "Best season", "estimatedCost": "Estimated cost", "tips": "Tips",
+    "regions": { "rio": "Rio de Janeiro", "saopaulo": "São Paulo", "nordeste": "Northeast", "amazonia": "Amazon", "pantanal": "Pantanal", "sul": "South", "centro_oeste": "Midwest", "sudeste_interior": "Southeast countryside" }
+  },
+  "auth": {
+    "login": "Log in", "register": "Create account", "logout": "Log out", "email": "E-mail",
+    "password": "Password", "name": "Name", "country": "Country of origin", "language": "Preferred language",
+    "acceptTerms": "I accept the Terms of Use", "acceptPrivacy": "I accept the Privacy Policy",
+    "marketing": "I want to receive travel tips by e-mail (optional)",
+    "passwordHint": "At least 8 characters, with letters and numbers.",
+    "forgot": "Forgot your password?", "forgotTitle": "Reset password", "sendLink": "Send link",
+    "forgotSent": "If this e-mail is registered, you will receive a link to reset your password.",
+    "resetTitle": "Set a new password", "newPassword": "New password",
+    "resetDone": "Password changed. You can now log in.",
+    "verifyTitle": "E-mail confirmation", "verifyOk": "Your e-mail has been confirmed!",
+    "verifyFail": "This link is invalid or has expired.",
+    "noAccount": "Don't have an account?", "haveAccount": "Already have an account?"
+  },
+  "account": {
+    "title": "My account", "premiumActive": "Premium active until {date}", "free": "Free plan",
+    "upgradeSoon": "Premium plans (Day Pass, Trip Pass, Monthly) coming soon.",
+    "emailVerified": "E-mail confirmed", "emailNotVerified": "E-mail not confirmed",
+    "resendVerification": "Resend confirmation", "verificationSent": "Confirmation e-mail sent.",
+    "privacy": "Privacy & data", "export": "Download my data", "delete": "Delete my account",
+    "deleteConfirm": "This permanently deletes your account. Enter your password to confirm.",
+    "deleted": "Your account has been deleted.", "saved": "Saved."
+  },
+  "money": {
+    "subtitle": "Real-time rates, tipping culture, and how to pay like a local in Brazil.",
+    "calculatorTitle": "Currency Converter",
+    "youHave": "You have:",
+    "estimatedBRL": "Estimated in Brazilian Reais (BRL):",
+    "cashDesk": "Exchange Kiosk (Cash)",
+    "intlCard": "International Card",
+    "cashSpreadNote": "Estimated physical buying rate",
+    "cardSpreadNote": "Official rate + banking fees",
+    "paymentMatrixTitle": "Paying in Brazil: Practical Matrix",
+    "cardsTitle": "Credit & Debit Cards (Visa / Mastercard)",
+    "cardsDesc": "Widely accepted in 99% of restaurants, shops, and beach vendors via contactless (NFC) terminals. Always choose to be billed in BRL on the card machine to avoid terrible DCC markup rates.",
+    "pixTitle": "PIX Instant Payments",
+    "pixDesc": "PIX is Brazil's omnipresent instant payment system. However, it requires a Brazilian tax ID (CPF) and a local bank account. Foreign tourists generally cannot scan PIX QR codes — use your card or cash instead.",
+    "tipTitle": "Tipping & Service Charge (10% to 13%)",
+    "tipDesc": "In bars and restaurants, a 10% (or 13%) service charge is almost always already itemized at the bottom of the bill. It is technically optional by law, but standard practice. Leaving extra cash on the table is not necessary.",
+    "cashTitle": "Cash & Banknotes",
+    "cashDesc": "Carry R$ 50 to R$ 150 in small bills (R$ 10, R$ 20) for small street stalls and beach chairs where mobile signal might drop. Avoid R$ 100 or R$ 200 bills as merchants often lack change.",
+    "atmTitle": "ATMs (Banco 24 Horas)",
+    "atmDesc": "Use 'Banco 24 Horas' red ATMs located inside pharmacies, supermarkets, shopping malls, and airports. Avoid freestanding street ATMs at night."
+  },
+  "arrival": {
+    "subtitle": "Immigration, baggage claim, connectivity, and verified ground transport to the city."
+  },
+  "entry": {
+    "subtitle": "Official entry regulations, visa validity, and health guidelines from Anvisa.",
+    "visaRulesTitle": "Visa Requirements by Nationality",
+    "healthTitle": "Health, Vaccines & Requirements"
+  },
+  "coming": {
+    "arrival": "Step-by-step guides for arrival at GRU, GIG, BSB and CNF: immigration, currency exchange and transport to the city.",
+    "money": "Currency converter (USD/EUR/ARS → BRL), tipping, cards, cash and PIX for foreigners.",
+    "entry": "Visa requirements by nationality, vaccines and travel insurance, with official sources."
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.", "network_error": "No connection. Check your internet.",
+    "invalid_credentials": "Invalid e-mail or password.", "email_taken": "This e-mail is already registered.",
+    "too_many_requests": "Too many attempts. Please wait a few minutes.",
+    "validation_error": "Please check the highlighted fields.", "invalid_token": "This link is invalid or has expired.",
+    "not_found": "Not found.", "unauthenticated": "Please log in to continue."
+  },
+  "fields": {
+    "required": "Required field.", "invalid_email": "Invalid e-mail.", "too_short": "Too short.",
+    "too_long": "Too long.", "must_accept": "You must accept to continue.",
+    "weak_password": "Use letters and numbers.", "invalid_value": "Invalid value.", "email_taken": "E-mail already registered."
+  }
+}
+
